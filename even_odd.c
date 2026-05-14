@@ -10,16 +10,17 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    int number;
+    int Number;
     
     printf("Enter Number: ");
-    scanf("%d",&number);
+    scanf("%d",&Number);
     
-    if(number % 2){
-        printf("odd");
+    if(Number % 2){
+        printf("Odd");
     }
     
     else{
-        printf("even");
+        printf("Even");
     }
+    
 }
